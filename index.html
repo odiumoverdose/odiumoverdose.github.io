@@ -63,6 +63,36 @@
                 margin-top: 2%;
                 margin-bottom: 5%;
             }
+            .special1
+            {
+                object-fit: contain;
+                display: block;
+                max-width: 99%;
+                height: 99%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 2%;
+                margin-bottom: 5%;
+            }
+            .special
+            {
+                object-fit: contain;
+                display: none;
+                max-width: 99%;
+                height: 99%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 2%;
+                margin-bottom: 5%;
+            }
+            .fug:active .special
+            {
+                display: block;
+            }
+            .fug:active .special1
+            {
+                display: none;
+            }
             .banner
             {
                 color: #ffffff;
@@ -92,7 +122,10 @@
             <img class="nav" src="home.png">
             <a href="http://twitter.com/man_hates"><img class="nav" url="http://twitter.com/man_hates" src="Twitter.png"></a>
         </div>
-        <img class="comics" src="human rights 2.jpg" title="Is it really a human right if it doesn't apply to everybody?">
+        <div class="fug">
+            <img class="special1" src="human rights cropped.jpg" title="Is it really a human right if it doesn't apply to everybody?">
+            <img class="special" src="human rights end.jpg" title="Is it really a human right if it doesn't apply to everybody?">
+        </div>
         <img class="comics" src="nuclear family.jpg" title="It's becoming increasingly rare too">
         <img class="comics" src="you must choose.jpg" title="The hardest choices require the strongest wills. Or not">
         <img class="comics" src="wanting children.jpg" title="You're literally saying you'd rather kill a baby than not have sex">
